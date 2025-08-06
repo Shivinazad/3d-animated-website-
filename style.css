@@ -1,0 +1,332 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #1137ca;
+}
+
+#main{
+    position: relative;
+}
+
+@font-face {
+    font-family: a;
+    src: url(./jost-variable.ttf);
+}
+@font-face {
+    font-family: b;
+    src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+}
+@font-face {
+    font-family: c;
+    src: url(./KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#page1>nav{
+    height: 10vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    /* background-color: aliceblue; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    z-index: 10;
+}
+
+#page1>nav img{
+    width: 4%;
+    margin-top: 1%;
+    margin-left: 1.9%;
+}
+
+#right-nav{
+    display: flex;
+    margin-top: 2%;
+    /* justify-content: space-between; */
+    gap: 20px;
+    /* align-items: center; */
+}
+
+#right-nav>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: #034AE1;
+    color: white;
+    font-family: "Jost";
+    font-size: 15px;
+}
+
+#bottom-page{
+    position: absolute;
+    left: 9%;
+    top: 75%;
+    /* bottom: 1%; */
+    /* background-color: blue; */
+    height: 35vh;
+    color: white;
+    width: 50vw;
+    z-index: 10;
+}
+
+#bottom-page>h1{
+    font-family: "Jost";
+    font-size: 5vw;
+    font-weight: 300;
+    line-height: 1;
+
+}
+
+#bottom-page-in{
+    height:35%;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    /* background-color: palegoldenrod; */
+}
+
+#bottom-page-in>h4{
+    font-family: "Jost";
+    width: 100%;
+    height: 20%;
+    font-size: 33px;
+    font-weight: 200;
+}
+
+#page2{
+    background-color: #0A3CCE;
+    color: rgba(255, 255, 255, 0.192);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Jost";
+    padding: 0vw 8vw;
+}
+
+#page2 h1 {
+    font-weight: 300;
+    font-size: 7vw;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    /* opacity: 0.7; */
+}
+
+#page2 h2 {
+    font-weight: 300;
+    font-size: 2vw;
+    margin-bottom: 30px;
+    color: white;
+    margin-left: 1.5vw;
+}
+
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+}
+
+
+#page3>canvas{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+#page4{
+    /* margin-top: 10vw; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1137ca;
+    font-family: "Jost";
+    padding: 10vw 8vw;
+    gap: 10px;
+
+}
+
+#page4>h2{
+    /* margin-left: 1vw; */
+    margin-bottom: 2vw;
+    font-weight: 200;
+    font-size: 2vw;
+    color: #fff;
+}
+
+#page4>h1{
+    /* margin-left: 15vw;
+    width: 70%;
+    font-size: 3vw;
+    font-weight: 300;
+    color: #ffffff; */
+
+    font-weight: 300;
+    font-size: 4.5vw;
+    height: 80vh;
+    line-height: 1.3;
+    /* margin-bottom: 20px; */
+    /* margin: 20px; */
+    color: rgba(255, 255, 255, 0.192);
+        opacity: 0.7;
+
+
+    /* font-weight: 300;
+    font-size: 7vw;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    opacity: 0.8; */
+}
+
+#page5{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+    position: relative;
+}
+
+#page5>canvas{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+#page6{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    align-items: start;
+    justify-content: center;
+    font-family: "Jost";
+    flex-direction: column;
+    background-color:#083DCD ;
+    line-height: 1.2;
+
+}
+
+#page6>h3{
+    margin-left: 9vw;
+    font-weight: 200;
+    color: white;
+    margin-bottom: 2vw;
+}
+
+#page6>h1{
+    margin-left: 9vw;
+    font-size: 4vw;
+    width: 90%;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.734);
+}
+
+#page7{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #083DCD;
+}
+
+#page7>canvas{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+} 
+/* 
+.page7-cir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+
+.page7-cir-inner{
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #fff;
+} */
+
+#page8{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+}
+#page8>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page8-bottom{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: "Jost";
+}
+.page8-bottom>h1{
+    color: #fff;
+    margin-bottom: 2vw;
+    font-size: 5vw;
+    font-weight: 100;
+}
+.page8-bottom>button{
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    color: #0a3cce;
+}
